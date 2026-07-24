@@ -129,7 +129,7 @@ public class P1_Patterns {
                 System.out.print(" ");
             }
 
-            // Printing the starts 
+            // Printing the stars 
             for(int st = 0; st < ((2 * row) - 1); st++){  // formula = 2*row - 1
                 System.out.print("*");
             }
@@ -401,17 +401,162 @@ public class P1_Patterns {
         DDDD
         EEEEE
          */
-        System.out.println("\n==== PATTERN 14 ====");
+        System.out.println("\n==== PATTERN 16 ====");
         int height = 5;
         char ch = 'A';
         for (int row = 1; row <= height; row++) {
             for(int j = 1; j<=row; j++){
                 System.out.print(ch);
             }
-            System.out.println();
             ch++;
+            System.out.println();
         }
 
+    }
+
+    static void displayPatternSeventeen() {
+        /*
+        A
+        AB
+        ABC
+        ABCD
+        ABCDE
+         */
+        System.out.println("\n==== PATTERN 17 ====");
+        int height = 5;
+        
+        for (int row = 1; row <= height; row++) {
+            char ch = 'A';
+            for(int j = 1; j<=row; j++){
+                System.out.print(ch++);
+            }
+            System.out.println();
+            
+        }
+    }
+
+    static void displayPatternEighteen() {
+        /*
+            A
+           ABA
+          ABCBA
+         ABCDCBA
+        ABCDEDCBA
+         */
+        System.out.println("\n==== PATTERN 18 ====");
+        int height = 5;
+        for(int row = 1; row <= height; row++){  
+        
+            // Printing the space
+            for(int sp = 0; sp < height - row; sp++){
+                System.out.print(" ");
+            }
+
+            // Printing the left letters
+            char ch = 'A';
+            for(int x = 0; x < row; x++){  // formula = 2*row - 1
+                System.out.print(ch++);
+            }
+
+            // Printing the right letters
+            ch--; // decrementing as we dont want duplicate
+            for(int x = row-1; x > 0; x--){  // formula = 2*row - 1
+                System.out.print(ch--);
+            }
+
+            System.out.println();
+        }
+    }   
+
+    static void displayPatternNineteen() {
+        /*
+        E
+        DE
+        CDE
+        BCDE
+        ABCDE
+         */
+        System.out.println("\n==== PATTERN 19 ====");
+        String chars = "ABCDEFGHIJKLMNOPQRSTUVWXYZ";
+        int height = 5;
+        for (int row = 1; row <= height; row++) {
+    
+            for(int j = 0; j<row; j++){
+                char myChar = chars.charAt(height - row + j);
+                System.out.print(myChar);
+            }
+            System.out.println();
+        }
+    }
+
+    static void displayPatternTwenty() {
+        /*
+        *        *
+        **      **
+        ***    ***
+        ****  ****
+        **********
+        ****  ****
+        ***    ***
+        **      **
+        *        *
+         */
+
+        System.out.println("\n==== PATTERN 20 ====");
+        int height = 10;
+
+        // Printing upper half
+        for (int row = 1; row <= height/2; row++) {
+
+            // LOOP 1: Printing left side stars
+            for (int j = 0; j < row; j++) {
+                System.out.print("*");
+            }
+
+            // LOOP 2: Printing the spaces
+            for(int space = 0; space < ((height/2)-row); space++){
+                System.out.print(" ");
+            }
+            
+            // LOOP 3: Printing right side stars
+            for (int j = 0; j < row; j++) {
+                System.out.print("*");
+            }
+            System.out.println();
+        }
+
+        // Print the spaces
+
+
+        // for (int row = (height/2)-1; row > 0; row--) {
+        //     for (int j = 0; j < row; j++) {
+        //         System.out.print("*");
+        //     }
+        //     System.out.println();
+        // }
+    }
+
+
+    static void displayPatternTwentyOne() {
+        /*
+        *****
+        *   *
+        *   *
+        *   *
+        *****
+         */
+    }
+
+    static void displayPatternTwentyTwo() {
+        /*
+        4 4 4 4 4 4 4
+        4 3 3 3 3 3 4
+        4 3 2 2 2 3 4
+        4 3 2 1 2 3 4
+        4 3 2 2 2 3 4
+        4 3 3 3 3 3 4
+        4 4 4 4 4 4 4
+         */
     }
 
 
@@ -434,5 +579,9 @@ public class P1_Patterns {
         displayPatternFourteen();
         displayPatternFifteen();
         displayPatternSixteen();
+        displayPatternSeventeen();
+        displayPatternEighteen();
+        displayPatternNineteen();
+        displayPatternTwenty();
     }
 }
