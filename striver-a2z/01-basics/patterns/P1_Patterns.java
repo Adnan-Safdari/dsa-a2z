@@ -500,13 +500,13 @@ public class P1_Patterns {
         ***    ***
         **      **
         *        *
-         */
+           */
 
         System.out.println("\n==== PATTERN 20 ====");
         int height = 10;
 
         // Printing upper half
-        for (int row = 1; row <= height/2; row++) {
+        for (int row = 1; row <= height/2; row++) { // runs 5 times
 
             // LOOP 1: Printing left side stars
             for (int j = 0; j < row; j++) {
@@ -514,7 +514,7 @@ public class P1_Patterns {
             }
 
             // LOOP 2: Printing the spaces
-            for(int space = 0; space < ((height/2)-row); space++){
+            for(int space = 0; space < ((height)-row*2); space++){
                 System.out.print(" ");
             }
             
@@ -524,16 +524,25 @@ public class P1_Patterns {
             }
             System.out.println();
         }
+        // Printing lower half
+        for (int row = 1; row < height/2; row++) { // runs 4 times
 
-        // Print the spaces
+            // LOOP 1: Printing left side stars
+            for (int j = 0; j < (height/2)-row; j++) {
+                System.out.print("*");
+            }
 
-
-        // for (int row = (height/2)-1; row > 0; row--) {
-        //     for (int j = 0; j < row; j++) {
-        //         System.out.print("*");
-        //     }
-        //     System.out.println();
-        // }
+            // LOOP 2: Printing the spaces
+            for(int space = 0; space < height-((height)-row*2); space++){
+                System.out.print(" ");
+            }
+            
+            // LOOP 3: Printing right side stars
+            for (int j = 0; j < (height/2)-row; j++) {
+                System.out.print("*");
+            }
+            System.out.println();
+        }
     }
 
 
@@ -545,6 +554,20 @@ public class P1_Patterns {
         *   *
         *****
          */
+        System.out.println("\n==== PATTERN 21 ====");
+        int n = 4;
+
+        for(int i=1; i<=n; i++){
+            // if first or last row
+            if(i == 1 || i == n){
+                System.out.print("*".repeat(n));
+            } else {
+                System.out.print("*");
+                System.out.print(" ".repeat(n-2));
+                System.out.print("*");
+            }
+            System.out.println();
+        }
     }
 
     static void displayPatternTwentyTwo() {
@@ -557,7 +580,12 @@ public class P1_Patterns {
         4 3 3 3 3 3 4
         4 4 4 4 4 4 4
          */
+
+        System.out.println("\n==== PATTERN 22 ====");
+        //TODO
     }
+
+
 
 
 
@@ -583,5 +611,7 @@ public class P1_Patterns {
         displayPatternEighteen();
         displayPatternNineteen();
         displayPatternTwenty();
+        displayPatternTwentyOne();
+        displayPatternTwentyTwo();
     }
 }

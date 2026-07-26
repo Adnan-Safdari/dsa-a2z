@@ -155,3 +155,55 @@ Solutions may be in **Java**, **C**, **Python**, or others — whatever fits the
 - [ ] Complete Striver A2Z sheet (474 problems)
 - [ ] Keep `leetcode-extra` for interview / contest extras
 - [ ] Revisit marked `in-progress` / hard problems periodically
+
+<!-- STATS:START -->
+## Progress
+
+| Metric | Count |
+|---|---:|
+| **Total Solved** | **2** |
+| In Progress | 0 |
+| Striver A2Z | 2 / 474 |
+| LeetCode Extra | 0 |
+
+### By Difficulty
+
+| Difficulty | Solved |
+|---|---:|
+| Easy | 2 |
+| Medium | 0 |
+| Hard | 0 |
+
+### By Language
+
+| Language | Solved |
+|---|---:|
+| java | 2 |
+
+### Striver A2Z Sheet
+
+Overall: `█░░░░░░░░░░░░░░░░░░░` 0% (2/474)
+
+| # | Topic | Progress | Solved |
+|---:|---|---|---:|
+| 1 | Learn the Basics | `█░░░░░░░░░░░` 4% | 2/54 |
+| 2 | Sorting Techniques | `░░░░░░░░░░░░` 0% | 0/7 |
+| 3 | Arrays | `░░░░░░░░░░░░` 0% | 0/40 |
+| 4 | Binary Search | `░░░░░░░░░░░░` 0% | 0/32 |
+| 5 | Strings (Basic & Medium) | `░░░░░░░░░░░░` 0% | 0/15 |
+| 6 | Linked List | `░░░░░░░░░░░░` 0% | 0/31 |
+| 7 | Recursion | `░░░░░░░░░░░░` 0% | 0/25 |
+| 8 | Bit Manipulation | `░░░░░░░░░░░░` 0% | 0/18 |
+| 9 | Stack & Queues | `░░░░░░░░░░░░` 0% | 0/30 |
+| 10 | Sliding Window & Two Pointer | `░░░░░░░░░░░░` 0% | 0/12 |
+| 11 | Heaps | `░░░░░░░░░░░░` 0% | 0/17 |
+| 12 | Greedy Algorithms | `░░░░░░░░░░░░` 0% | 0/15 |
+| 13 | Binary Trees | `░░░░░░░░░░░░` 0% | 0/38 |
+| 14 | Binary Search Trees | `░░░░░░░░░░░░` 0% | 0/16 |
+| 15 | Graphs | `░░░░░░░░░░░░` 0% | 0/53 |
+| 16 | Dynamic Programming | `░░░░░░░░░░░░` 0% | 0/55 |
+| 17 | Tries | `░░░░░░░░░░░░` 0% | 0/7 |
+| 18 | Strings (Hard) | `░░░░░░░░░░░░` 0% | 0/9 |
+
+> Stats are generated from `PROBLEM.md` files. Run `python3 scripts/update_readme_stats.py` after adding/solving a problem.
+<!-- STATS:END -->
