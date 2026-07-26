@@ -1,5 +1,30 @@
-*class
-*sh
-*bat
-*exe
+# Compiled / generated
+*.class
+*.o
+*.out
+*.exe
+*.jar
+
+# Native / scripts
+*.sh
+*.bat
+
+# Editor / OS
+.idea/
+.vscode/
+*.iml
+.DS_Store
+Thumbs.db
+
+# Python
+__pycache__/
+*.pyc
+.venv/
+venv/
+
+# Local test binaries (keep sources)
 test_candies
+
+# Misc
+*.log
+*.tmp

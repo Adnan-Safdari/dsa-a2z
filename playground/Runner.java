@@ -1,16 +1,18 @@
+/**
+ * Local playground to quickly test solutions.
+ * Compile/run from repo root after adjusting classpath to the solution folder.
+ *
+ * Example (Java):
+ *   javac playground/Runner.java striver-a2z/01-basics/basic-maths/L0009_Palindrome_Number/Solution.java
+ *   java -cp playground:striver-a2z/01-basics/basic-maths Runner
+ */
 public class Runner {
     public static void main(String[] args) {
-
-        // L09_Palindrome_Number.Solution p = new L09_Palindrome_Number.Solution();
-        // // Method 1
+        // L0009_Palindrome_Number.Solution p = new L0009_Palindrome_Number.Solution();
         // System.out.println(p.isPalindromeA(121));
-        // System.out.println(p.isPalindromeA(-121));
-        // // Method 2
-        // System.out.println(p.isPalindromeB(123454321));
         // System.out.println(p.isPalindromeB(12321));
 
-        L168_Excel_Sheet_Column_Title.Solution esct = new L168_Excel_Sheet_Column_Title.Solution();
-        System.out.println(esct.convertToTitle(2));
-
+        // L0168_Excel_Sheet_Column_Title.Solution esct = new L0168_Excel_Sheet_Column_Title.Solution();
+        // System.out.println(esct.convertToTitle(28));
     }
 }
