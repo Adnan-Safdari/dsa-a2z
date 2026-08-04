@@ -8,7 +8,7 @@ public class Solution {
         System.out.println(gcd_brute_force(n1, n2));
         System.out.println(gcd_euclids(n1, n2));
     }
-   
+
 
     // Method 1: Brute Force Method 
     // Time Complexity: O(n)
