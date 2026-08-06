@@ -7,6 +7,7 @@ sheet: striver-a2z
 topic: 03-arrays
 subtopic: easy
 status: solved
+count: 1
 languages: [java]
 link: https://leetcode.com/problems/example/
 ---

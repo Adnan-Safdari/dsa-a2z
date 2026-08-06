@@ -7,6 +7,7 @@ sheet: striver-a2z
 topic: 01-basics
 subtopic: patterns
 status: solved
+count: 21
 languages: [java]
 link: https://takeuforward.org/strivers-a2z-dsa-course/must-do-pattern-problems-before-starting-dsa/
 ---

@@ -1,0 +1,13 @@
+{
+  "_comment": "Solved counts for A2Z sheet items completed on TakeUForward (or elsewhere) but not tracked as problem folders in this repo. Keys are topic folder names. Values under external are subtopic labels → solved counts. These are ADDED to counts discovered from PROBLEM.md / Solution files.",
+  "topics": {
+    "01-basics": {
+      "external": {
+        "things-to-know": 9,
+        "logical-thinking": 2,
+        "stl-collections": 2,
+        "basic-recursion-off-repo": 1
+      }
+    }
+  }
+}
